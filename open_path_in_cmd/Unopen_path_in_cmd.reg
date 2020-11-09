@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Open in CmdLine ...]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Open in CmdLine ...\command]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Open in CmdLine ...]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Open in CmdLine ...\command]

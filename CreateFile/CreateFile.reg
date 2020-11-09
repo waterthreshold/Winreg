@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Create File ...]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Create File ...\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K \"createFile.bat %L\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Create File ...]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Create File ...\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K \"createFile.bat %V\""

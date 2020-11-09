@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path]
+
+[HKEY_CLASSES_ROOT\*\Shellex\cmd]
+"MUIVerb"="Windows Apps"
+"SubCommands"="windows;linux;code"
+"icon"="imageres.dll,152"
+"Position"=-
+@="Copy as Path"
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path\unix]
+@=unix
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path\unix\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K \"CopyAsPath.bat \"%V\" \"unix\"\""
+
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path\normal]
+@=normal
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path\normal\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K \"CopyAsPath.bat \"%V\" \"normal\"\""
+
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path\code]
+@=code
+[HKEY_CLASSES_ROOT\*\Shellex\Copy as Path\code\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K \"CopyAsPath.bat \"%V\" \"code\"\""
