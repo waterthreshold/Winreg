@@ -1,5 +1,5 @@
 @echo off 
-SET PATH=%1
+SET PATH=%~1
 cd %PATH%
 
 
@@ -14,9 +14,9 @@ set PATHFILENAME=%PATH%\%FILENAME%
 if "%FILENAME%" == "" (
 goto InputFileName
 )
-if EXIST %PATHFILENAME% (
+if EXIST "%PATHFILENAME%" (
 goto InputFileName
 )
 type NUL > %FILENAME%
-"C:\Program Files (x86)\Notepad++\notepad++.exe" "%PATHFILENAME%"
+"C:\Program Files\Notepad++\notepad++.exe" "%PATHFILENAME%"
 exit

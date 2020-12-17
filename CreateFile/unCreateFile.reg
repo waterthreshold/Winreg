@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Create File ...]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\Create File ...\command]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Create File ...]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Create File ...\command]
+
+
+rm C:\Users\suman\Desktop\bin\CreateFile.bat

@@ -7,11 +7,11 @@ gsudo  >nul 2>&1
 )
 
 
-if NOT EXIST C:\Windows\System32\gsudo.exe (
+if NOT EXIST  %USERPROFILE%\Desktop\bin\gsudo.exe (
 copy gsudo.exe C:\Windows\System32\
 )
-if NOT EXIST C:\Windows\System32\createFile.bat (
-gsudo copy CreateFile.bat C:\Windows\System32\
+if NOT EXIST  %USERPROFILE%\Desktop\bin\createFile.bat (
+gsudo copy CreateFile.bat %USERPROFILE%\Desktop\bin
 )
 gsudo CreateFile.reg
 pause
